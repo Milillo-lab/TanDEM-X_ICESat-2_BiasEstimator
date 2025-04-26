@@ -17,8 +17,8 @@
 
 <sup>*</sup>Corresponding author: [Pietro Milillo](mailto:pmilillo@uh.edu)
 
-[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2406.02506)
-[![Zenodo](https://img.shields.io/badge/Zenodo-link-green)](https://zenodo.org/records/)
+[![Paper](https://img.shields.io/badge/Published%20In-The%20Cryosphere-blue)](LINK here)
+[![Zenodo](https://img.shields.io/badge/Zenodo-link-green)](Zenodo Link Here)
 ![MIT License](https://img.shields.io/badge/License-MIT-929292.svg)
 
 </div>
