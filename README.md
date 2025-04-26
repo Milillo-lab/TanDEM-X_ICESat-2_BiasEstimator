@@ -17,9 +17,9 @@
 
 <sup>*</sup>Corresponding author: [Pietro Milillo](mailto:pmilillo@uh.edu)
 
-[![Paper](https://img.shields.io/badge/Published%20In-The%20Cryosphere-blue)](LINK here)
-[![Zenodo](https://img.shields.io/badge/Zenodo-link-green)](Zenodo Link Here)
-![MIT License](https://img.shields.io/badge/License-MIT-929292.svg)(https://github.com/Milillo-lab/TanDEM-X_ICESat-2_BiasEstimator/blob/main/LICENSE.txt)
+[![Paper](https://img.shields.io/badge/Published%20In-The%20Cryosphere-blue)](https://arxiv.org/abs/)
+[![Zenodo](https://img.shields.io/badge/Zenodo-link-green)](https://zenodo.org/records/)
+![MIT License](https://img.shields.io/badge/License-MIT-929292.svg)](https://github.com/Milillo-lab/TanDEM-X_ICESat-2_BiasEstimator/blob/main/LICENSE.txt)
 
 </div>
 
