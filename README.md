@@ -8,19 +8,20 @@
 
 **Ankita Vashishtha<sup>*,1</sup>**, **Pietro Milillo<sup>1,2,3</sup>**, **Alexandre Becker Campos<sup>3,5</sup>**, **Jose Luis Bueso Bello<sup>3</sup>**, **Paola Rizzoli<sup>3</sup>**, **Johan Nilsson<sup>4</sup>**
 
-</div>
 
-<sup>1</sup> Department of Civil and Environmental Engineering, University of Houston, Houston, TX, USA ␣␣
-<sup>2</sup> Department of Earth and Atmospheric Science, University of Houston, Houston, TX, USA ␣␣
-<sup>3</sup> German Aerospace Centre (DLR), Microwaves and Radar Institute, Munich, Germany ␣␣
-<sup>4</sup> Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA ␣␣
-<sup>5</sup> FAU Erlangen- Nürnberg, Institute of Geography, Erlangen, Germany␣␣
+<sup>1</sup> Department of Civil and Environmental Engineering, University of Houston, Houston, TX, USA  
+<sup>2</sup> Department of Earth and Atmospheric Science, University of Houston, Houston, TX, USA  
+<sup>3</sup> German Aerospace Centre (DLR), Microwaves and Radar Institute, Munich, Germany  
+<sup>4</sup> Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA  
+<sup>5</sup> FAU Erlangen- Nürnberg, Institute of Geography, Erlangen, Germany
 
 <sup>*</sup>Corresponding author: [Pietro Milillo](mailto:pmilillo@uh.edu)
 
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2406.02506)
 [![Zenodo](https://img.shields.io/badge/Zenodo-link-green)](https://zenodo.org/records/)
 ![MIT License](https://img.shields.io/badge/License-MIT-929292.svg)
+
+</div>
 
 
 ## Overview
