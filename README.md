@@ -15,13 +15,15 @@
 <sup>4</sup> Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA  
 <sup>5</sup> FAU Erlangen- Nürnberg, Institute of Geography, Erlangen, Germany
 
-<sup>*</sup>Corresponding author: [Pietro Milillo](mailto:pmilillo@uh.edu)
+<sup>*</sup>Corresponding author: [Ankita Vashishtha](mailto:avashish@CougarNet.UH.EDU)
 
 [![Paper](https://img.shields.io/badge/Published%20In-The%20Cryosphere-blue)](https://arxiv.org/abs/)
 [![Zenodo](https://img.shields.io/badge/Zenodo-link-green)](https://zenodo.org/records/)
 [![MIT License](https://img.shields.io/badge/License-MIT-929292.svg)](https://github.com/Milillo-lab/TanDEM-X_ICESat-2_BiasEstimator/blob/main/LICENSE.txt)
 
 </div>
+
+## How To CIte
 
 
 ## Overview
@@ -175,7 +177,7 @@ For questions or collaboration inquiries:
 
 ---
 
-*Developed with ❤️ at University of Houston and German Aerospace Center (DLR).*
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+*Developed with ❤️ at University of Houston and German Aerospace Center (DLR).*
