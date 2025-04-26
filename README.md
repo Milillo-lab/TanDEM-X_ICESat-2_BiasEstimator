@@ -53,7 +53,7 @@ TanDEM-X_ICESat-2_BiasEstimator/
 ├── CITATION.cff
 ├── .gitignore
 ├── data/
-│   └── ICESat2_TDX_ECMWF_dataset.csv
+│   └── Input_fil_data.csv
 ├── notebooks/
 │   ├── 01_Data_Preprocessing.ipynb
 │   ├── 02_Model_Training.ipynb
@@ -67,7 +67,7 @@ TanDEM-X_ICESat-2_BiasEstimator/
 │   └── prepare_dataset.py
 ├── requirements.txt
 └── figures/
-    └── important_figures_from_paper.png
+
 ```
 
 ---
