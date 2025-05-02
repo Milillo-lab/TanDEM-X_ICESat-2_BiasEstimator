@@ -62,7 +62,7 @@ TanDEM-X_ICESat-2_BiasEstimator/
 │   ├── 02_Model_Training.ipynb
 │   ├── 03_Model_Evaluation.ipynb
 │   └── 04_Predict_PenetrationBias.ipynb
-├── models/
+├── models/ [on Zenodo]
 │   ├── trained_model_DNN.h5
 │   └── trained_model_RF.pkl
 ├── scripts/
@@ -106,8 +106,8 @@ pip install -r requirements.txt
 
 ### 2. Training
 - Open and run `notebooks/02_Model_Training.ipynb` to train machine learning and deep learning models.
-- Pre-trained models are already available in `/models/`.
-
+- Pre-trained models are already available on [Zenodo](https://zenodo.org/records/15321465?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0NjE2NTc3MCwiZXhwIjoxNzY5ODE3NTk5fQ.eyJpZCI6IjA5ODU2ZGEzLWNhNGUtNDI0Ny04OTVjLTM2YWNjMWQyYzdkYSIsImRhdGEiOnt9LCJyYW5kb20iOiJiZjVkMDNkZTJiOWQxOGZkNzczZGY2MzcxNWQ3MmY2YyJ9.wNoHk4a4BTu-dg0_K_hvQ_01Rc5dKtJ52JipmrxpCXUquUPCHoQiz3r_QU7WW7Lsx5MhYtvk3-_QkaYEIBQ7NA).
+  
 ### 3. Evaluation
 - Run `notebooks/03_Model_Evaluation.ipynb` to evaluate model performance.
 
