@@ -43,7 +43,7 @@ This work was conducted at the University of Houston, TX under a contract with t
 
 ## Study Area Overview
 Here is the overview map of the analyzed region:
-![Overview Map of Study Area](figures/Overview_Map.jpg)
+![Overview Map of Study Area](figures/Overall_Map.jpeg)
 
 ---
 
