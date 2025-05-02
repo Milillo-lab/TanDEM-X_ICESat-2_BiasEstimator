@@ -18,7 +18,7 @@
 <sup>*</sup>Corresponding author: [Ankita Vashishtha](mailto:avashish@CougarNet.UH.EDU)
 
 [![Paper](https://img.shields.io/badge/Published%20In-The%20Cryosphere-blue)](https://arxiv.org/abs/)
-[![Zenodo](https://img.shields.io/badge/Zenodo-link-green)](https://zenodo.org/records/)
+[![Zenodo](https://img.shields.io/badge/Zenodo-link-green)](https://zenodo.org/records/15321465?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0NjE2NTc3MCwiZXhwIjoxNzY5ODE3NTk5fQ.eyJpZCI6IjA5ODU2ZGEzLWNhNGUtNDI0Ny04OTVjLTM2YWNjMWQyYzdkYSIsImRhdGEiOnt9LCJyYW5kb20iOiJiZjVkMDNkZTJiOWQxOGZkNzczZGY2MzcxNWQ3MmY2YyJ9.wNoHk4a4BTu-dg0_K_hvQ_01Rc5dKtJ52JipmrxpCXUquUPCHoQiz3r_QU7WW7Lsx5MhYtvk3-_QkaYEIBQ7NA)
 [![MIT License](https://img.shields.io/badge/License-MIT-929292.svg)](https://github.com/Milillo-lab/TanDEM-X_ICESat-2_BiasEstimator/blob/main/LICENSE.txt)
 
 </div>
@@ -31,12 +31,15 @@
 This project presents a machine learning and deep learning approach to estimate and correct penetration biases in TanDEM-X (TDX) elevation measurements over Grounding Lines in Antarctica using ICESat-2 laser altimetry and ECMWF ERA5 atmospheric data. Penetration bias correction enhances the accuracy of radar-derived digital elevation models (DEMs), critical for reliable glaciological assessments and monitoring polar ice mass balance.
 
 The repository includes:
-- Datasets extracted from TanDEM-X, ICESat-2, and ECMWF.
+- Datasets extracted from TanDEM-X, ICESat-2, and ECMWF (Zenodo).
 - Jupyter notebooks for data preprocessing, model training, evaluation, and prediction.
 - Pre-trained model weights.
 - Scripts for automated data preparation.
 
-Findings from this study contribute to NASA's Surface Topography and Vegetation (STV) Decadal Survey study, proposing a novel approach to mitigate radar elevation bias in polar regions.
+Findings from this study contribute to NASA's [Surface Topography and Vegetation (STV) Decadal Survey study](https://science.nasa.gov/earth-science/decadal-surveys/decadal-stv/), proposing a novel approach to mitigate radar elevation bias in polar regions.
+
+## Funding: 
+This work was conducted at the University of Houston, TX under a contract with the Cryosphere Program of NASA, and the NASA Decadal Survey Incubation program.	
 
 ## Study Area Overview
 Here is the overview map of the analyzed region:
@@ -115,23 +118,23 @@ pip install -r requirements.txt
 
 ## Dataset
 
-The dataset consists of over 276,000 matched points with:
+The dataset consists of about 300,000 matched points with:
 - ICESat-2 surface elevation.
 - TanDEM-X DEM height and radar features (coherence, amplitude, slope, etc.).
 - Atmospheric features from ECMWF ERA5 (temperature, snowfall, wind speed/direction, surface pressure).
 
-**Note:** Due to size limitations, only a sample dataset is hosted here. The full dataset is available upon request or through linked repositories.
+**Note:** Due to size limitations, only a sample dataset is hosted here. The full dataset is available on [Zenodo](https://zenodo.org/records/15321465?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0NjE2NTc3MCwiZXhwIjoxNzY5ODE3NTk5fQ.eyJpZCI6IjA5ODU2ZGEzLWNhNGUtNDI0Ny04OTVjLTM2YWNjMWQyYzdkYSIsImRhdGEiOnt9LCJyYW5kb20iOiJiZjVkMDNkZTJiOWQxOGZkNzczZGY2MzcxNWQ3MmY2YyJ9.wNoHk4a4BTu-dg0_K_hvQ_01Rc5dKtJ52JipmrxpCXUquUPCHoQiz3r_QU7WW7Lsx5MhYtvk3-_QkaYEIBQ7NA).
 
 ---
 
 ## Results Summary
 
 - Achieved mean penetration bias correction of ~1 cm.
-- Root Mean Square Error (RMSE) ~1 m.
+- Root Mean Square Error of TDX DEM (RMSE) ~1 m.
 - Maximum errors on the order of 10 m.
 - DNN and Random Forest models outperform other algorithms.
 - Environmental features (temperature, wind speed) improved bias prediction by 10-20%.
-
+- Valid for biases observed within -10 and +10 meters
 ---
 
 ## License
@@ -180,4 +183,3 @@ For questions or collaboration inquiries:
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-*Developed with ❤️ at University of Houston and German Aerospace Center (DLR).*
