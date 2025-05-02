@@ -44,6 +44,7 @@ This work was conducted at the University of Houston, TX under a contract with t
 ## Study Area Overview
 Here is the overview map of the analyzed region:
 ![Overview Map of Study Area](figures/Overall_Map.jpeg)
+Velocity magnitude from 1996 to 2016 (Mouginot et al., 2017) 
 
 ---
 
